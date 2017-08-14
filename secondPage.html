@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+
+        <title>Web Storage</title>
+  
+    </head>
+    
+    <body>
+    
+        <h1>Web Storage Demo</h1>
+        
+        
+    
+    </body>
+    
+    <script>
+        // First we need to display the results
+        
+        document.write("<h1>Hi " + localStorage.username + " from " + localStorage.country + "</h1>");
+//        document.write("<h1>Hi " + sessionStorage.username + "</h1>");
+        
+        // How many items are within the local storage
+        
+//        document.write("<h1>" + localStorage.length + "</h1>");
+        
+//        document.write("<h1>" + localStorage.getItem(1)) + "</h1>";
+//        document.write("<h1>" + localStorage.getItem(localStorage.key(0)) + "</h1>";
+        
+        localStorage.removeItem("country");
+        
+    </script>
+    
+</html>
+
+
+
